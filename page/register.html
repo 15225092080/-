@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/register.css">
+</head>
+
+<body>
+    <header>
+        <a href="" class="logo">
+            <img src="../images/xqf-images/xqf-user-logo.png" alt="">
+        </a>
+        <a href="">
+            <img src="../images/xqf-images/xqf-login-logo.png" alt="">
+        </a>
+        <div class="header-right">
+            已注册可<a href="login.html">在此登录</a>
+        </div>
+    </header>
+    <main>
+        <div class="mainlayout">
+            <div class="mainleft">
+                <a href=""><img src="../images/xqf-images/1488939821671881226.jpg" alt=""></a>
+            </div>
+            <div class="mainright">
+                <div class="item" id="phone_yz">
+                    <div class="item-label">手 机 号 码</div>
+                    <div class="item-info">
+                        <input type="text" name="mobile_phone" id="mobile_phone" class="text" placeholder="请输入手机号" value="" autocomplete="off" />
+                    </div>
+                    <div class="input-tip"><label id="mobile_notice"></label></div>
+                </div>
+                <div class="item">
+                    <div class="item-label">验　证　码</div>
+                    <div class="item-info">
+                        <input type="text" id="captcha" name="captcha" class="text text-2 fl" placeholder="请输入图片验证码" value="" autocomplete="off" />
+                    </div>
+                    <div class="input-tip"><label id="captcha_notice"></label></div>
+                </div>
+                <div class="item" id="code_mobile">
+                    <div class="item-label">手机验证码</div>
+                    <div class="item-info">
+                        <input type="text" id="sms" name="mobile_code" class="text text-2" placeholder="请输入短信验证码" value="" autocomplete="off" />
+                        <a href="javascript:sendSms();" id="zphone" class="sms-btn">获取验证码</a>
+                    </div>
+                    <div class="input-tip"><label id="phone_notice"></label></div>
+                </div>
+                <div class="item">
+                    <div class="item-label">设 置 密 码</div>
+                    <div class="item-info">
+                        <input type="password" name="password" id="pwd" class="text" placeholder="请输入密码" value="" autocomplete="off" />
+                    </div>
+                    <div class="input-tip"></div>
+                </div>
+                <div class="item">
+                    <div class="item-label">确 认 密 码</div>
+                    <div class="item-info">
+                        <input type="password" name="confirm_password" id="pwdRepeat" class="text" placeholder="请再次确认密码" value="" autocomplete="off" />
+                    </div>
+                    <div class="input-tip"></div>
+                </div>
+                <div class="item item2">
+                    <div class="item-checkbox">
+                        <input type="checkbox" id="clause2" class="ui-solid-checkbox" checked="checked" value="1" name="mobileagreement">
+                        <label class="ui-solid-label" for="clause2">我已阅读并同意<a href="https://x.dscmall.cn/article-82.html" class="ftx-05" target="_blank">《大商创用户注册协议》</a></label>
+                    </div>
+                </div>
+                <div class="item item2 item-button">
+                    <a href="login.html"><input type="submit" id="registsubmit" name="Submit" maxlength="8" class="btn sc-redBg-btn" value="立即注册" /></a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footerlayout">
+            <p>
+                <a href="#">首页</a>|
+                <a href="#">隐私保护</a>|
+                <a href="#">联系我们</a>|
+                <a href="#">免责条款</a>|
+                <a href="#">公司简介</a>|
+                <a href="#">商家入驻</a>|
+                <a href="#">供应商入驻</a>|
+                <a href="#">意见反馈</a>
+            </p>
+            <p>
+                <a href="#">b2b2c</a>|
+                <a href="#">多用户商城系统</a>|
+                <a href="#">商城系统</a>|
+                <a href="#">ecjia新零售</a>
+            </p>
+            <p>
+                <a href="#">
+                    ICP备案证书号：沪ICP备14029880号-5
+                </a>
+            </p>
+            <p>
+                <a href="#">
+                    版权所有 &copy;2005-2021大商创,并保留所有权利，POWERED BY DSCMALL
+                </a>
+            </p>
+        </div>
+    </footer>
+</body>
+
+</html>

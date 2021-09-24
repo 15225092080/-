@@ -1,0 +1,16 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1314427",
+      "name": "向下箭头",
+      "font_class": "xiangxiajiantou",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

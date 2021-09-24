@@ -1,0 +1,541 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 格式化处理 */
+
+body,
+button,
+input,
+select,
+textarea {
+    font-size: 12px;
+    color: #555;
+    word-break: break-all;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+li {
+    list-style-type: none;
+}
+
+
+/* 头部 */
+
+.all-top {
+    background: #eee;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.all-top .w1200 {
+    height: 30px;
+    line-height: 30px;
+    color: #8c8c8c;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+
+/* 左边 */
+
+.all-top .map {
+    position: relative;
+    width: 72px;
+    height: 28px;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    line-height: 28px;
+}
+
+.all-top .map:hover {
+    height: 28px;
+    /* padding-bottom: 2px; */
+    border-color: #ccc;
+    border-bottom: 2px solid #fff;
+    background-color: #fff;
+}
+
+.all-top .map>div {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 28px;
+    width: 420px;
+    height: 250px;
+    border: 1px solid #ccc;
+    background-color: white;
+    z-index: 99;
+}
+
+.all-top .map:hover>div {
+    display: block;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+}
+
+.all-top .map svg {
+    font-size: 20px;
+    color: #f42424;
+    float: left;
+    height: 26px;
+    margin-top: 2px;
+}
+
+.all-top .map span {
+    padding-left: 7px;
+}
+
+.red {
+    color: #f42424;
+}
+
+.icon-icon-map:before {
+    content: "\e502";
+}
+
+.all-top .top-fl-tex {
+    float: left;
+    margin-left: 15px;
+}
+
+.all-top .top-fl-tex a:first-child {
+    color: #f42424;
+    padding-right: 12px;
+    float: left;
+}
+
+.all-top .top-fl-tex a:last-child {
+    color: #8c8c8c;
+    float: left
+}
+
+.all-top .w1200 .fl a:hover,
+.all-top .w1200 .fr a:hover {
+    color: #f42424;
+}
+
+.dingwei {
+    padding: 20px 8px 10px 15px;
+    width: 420px;
+}
+
+.ding-title {
+    width: 420px;
+    height: 20px;
+}
+
+.ding-title a {
+    float: left;
+    line-height: 20px;
+    padding: 0 5px;
+    margin-right: 5px;
+}
+
+.all-top .w1200 .map .dingwei .ding-title a:hover {
+    background-color: red;
+    color: white;
+}
+
+.ding-letter {
+    height: 30px;
+    line-height: 30px;
+    color: #8c8c8c;
+}
+
+.ding-letter a {
+    font-size: 14px;
+    color: #8c8c8c;
+    float: left;
+    line-height: 16px;
+    padding: 0 3px;
+    margin-right: 1px;
+    font-weight: 700;
+}
+
+.ding-con {
+    overflow: hidden;
+    width: 420px;
+    margin-top: 10px;
+    position: relative;
+    z-index: 10;
+}
+
+.ding-con-list {
+    float: left;
+    /* height: 150px; */
+    margin-left: 5px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.ding-con-list ul {
+    /* float: left; */
+    /* overflow: hidden; */
+    height: 200px;
+    position: relative;
+    z-index: 9;
+    overflow-y: scroll;
+}
+
+.ding-con-list ul::-webkit-scrollbar-track-piece {
+    background-color: #6b7bf5;
+}
+
+
+/* 滚动条的宽度 */
+
+.ding-con-list ul::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+}
+
+
+/* 滚动条颜色 */
+
+.ding-con-list ul::-webkit-scrollbar-thumb {
+    background-color: red;
+    background-clip: padding-box;
+    min-height: 28px;
+}
+
+.ding-con-list ul::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb;
+}
+
+.ding-con-list ul li {
+    width: 100%;
+    float: left;
+}
+
+.ding-con-list ul li em {
+    width: 18px;
+    height: 18px;
+    line-height: 16px;
+    border-radius: 50%;
+    /* display: block; */
+    text-align: center;
+    margin: 0px 10px 0 0px;
+    float: left;
+    background-color: #eee;
+    color: #8c8c8c;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.ding-con-list ul li .itme-city {
+    float: left;
+    width: 355px;
+}
+
+.ding-con-list ul li .itme-city a {
+    float: left;
+    color: #000;
+    line-height: 20px;
+    padding: 0 5px;
+    margin: 0 5px 5px 0;
+}
+
+
+/* 右边 */
+
+.all-top .w1200>ul {
+    width: 350px;
+    height: 30px;
+}
+
+.all-top .w1200>ul li {
+    width: 62px;
+    height: 30px;
+    float: left;
+}
+
+.all-top .w1200>ul .spacer {
+    width: 1px;
+    /* height: 10px;  */
+}
+
+.all-top .w1200>ul li a {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.all-top .w1200>ul li:last-child {
+    position: relative;
+    width: 82px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: 1px solid #eee;
+    border-bottom: 0px;
+}
+
+.all-top .w1200>ul li div {
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 82px;
+    height: 30px;
+}
+
+.all-top .w1200>ul li div i {
+    display: inline-block;
+    width: 7px;
+    height: 4px;
+    margin-left: 7px;
+    background: url(../images/zhu-1.png) no-repeat 0 -40px;
+    margin-top: 13px;
+}
+
+.all-top .w1200>ul li:last-child:hover {
+    padding-bottom: 2px;
+    border-color: #ccc;
+    border-bottom: none;
+    background-color: #fff;
+}
+
+.all-top .w1200>ul li:last-child .daohang {
+    display: none;
+    position: absolute;
+    border: 1px solid #d2d2d2;
+    background-color: #fff;
+    top: 30px;
+    right: -1px;
+    padding: 18px 0px;
+    min-width: 396px;
+    height: 120px;
+    z-index: 99;
+}
+
+.all-top .w1200>ul li:last-child .daohang a:hover {
+    color: red;
+}
+
+.all-top .w1200>ul li:last-child:hover .daohang {
+    display: block;
+}
+
+.all-top .w1200>ul li:last-child dl {
+    float: left;
+    padding: 0 0 0 30px;
+    width: 85px;
+}
+
+.all-top .w1200>ul li:last-child dl dt {
+    font-weight: 700;
+    color: #666;
+}
+
+.all-top .w1200>ul li:last-child dl dd a {
+    float: left;
+    width: 75px;
+    padding-left: 0px;
+    color: #8c8c8c;
+    display: block;
+}
+
+.all-top .w1200>ul li:last-child .fore1 {
+    height: 120px;
+    border-right: 1px solid #efefef;
+}
+
+.all-top .w1200>ul li:last-child .fore2 {
+    width: 250px;
+}
+
+
+/* 搜索头 */
+
+.header {
+    padding-bottom: 10px;
+    background-color: #fff;
+}
+
+.w {
+    height: 100px;
+    position: relative;
+}
+
+
+/* logo图标 */
+
+.logo {
+    position: absolute;
+    margin-right: 30px;
+    float: left;
+}
+
+.logo a {
+    display: inline-block;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.logo img {
+    margin-top: 20px;
+}
+
+
+/* 搜索框 */
+
+.header-search {
+    margin: 30px 0 0 78px;
+    width: 546px;
+    height: 64px;
+    left: 189PX;
+    position: absolute;
+}
+
+.header-search .search-con {
+    width: 378px;
+    height: 14px;
+    padding: 8px;
+    border: 2px solid #f42424;
+    outline: 0;
+    font-size: 12px;
+    float: left;
+    color: #999;
+    color: rgb(153, 153, 153);
+}
+
+.header-search form .search-con {
+    border-color: #2984EB;
+}
+
+.header-search form button {
+    border: 0;
+    width: 70px;
+    height: 34px;
+    line-height: 34px;
+    background-color: #f42424;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    float: left;
+    outline: 0;
+}
+
+.header-search form .button-goods {
+    background-color: #2984EB;
+    margin-right: 8px;
+}
+
+.header-search form .button-store {
+    background-color: #434D55
+}
+
+.keyword {
+    width: 100%;
+    height: 30px;
+    overflow: hidden
+}
+
+.keyword a {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 10px;
+    color: #999;
+}
+
+
+/* 购物车 */
+
+.my-shopCart {
+    position: relative;
+    width: 178px;
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #d2d2d2;
+    padding-bottom: 2px;
+    margin-top: 30px;
+}
+
+.my-shopCart img {
+    padding-left: 20px;
+    padding-top: 2px;
+    vertical-align: top;
+    width: 30px;
+}
+
+.my-shopCart:hover {
+    height: 33px;
+    border-bottom: 2px solid white;
+    background-color: white;
+}
+
+.prompt {
+    display: none;
+    width: 256px;
+    height: 68px;
+    position: absolute;
+    border: 1px solid #d2d2d2;
+    top: 33px;
+    right: -1px;
+    padding: 20px 20px 20px 36px;
+    background-color: white;
+    z-index: 90;
+}
+
+.my-shopCart:hover .prompt {
+    display: block;
+}
+
+.my-shopCart span {
+    margin-left: 5px;
+    font-size: 14px;
+    color: red;
+}
+
+.my-shopCart em {
+    min-width: 13px;
+    height: 13px;
+    line-height: 13px;
+    padding: 1px;
+    border-radius: 50%;
+    background: #f42424;
+    color: #fff;
+    position: absolute;
+    top: 6px;
+    left: 130px;
+    font-style: normal;
+    text-align: center;
+    font-size: 12px;
+}
+
+.prompt img {
+    padding-left: 0px;
+    width: 110px;
+    height: 68px;
+    float: left;
+}
+
+.prompt span {
+    float: left;
+    display: block;
+    font-size: 12px;
+    color: #8c8c8c;
+    margin: 6px 0 0 14px;
+    line-height: 25px;
+    width: 132px;
+}

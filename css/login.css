@@ -1,0 +1,142 @@
+body,
+html,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+header {
+    width: 1200px;
+    height: 130px;
+    margin: 0 auto;
+}
+
+header>a {
+    height: 130px;
+    display: block;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 25px;
+}
+
+header .header-right {
+    float: right;
+    width: 126px;
+    height: 130px;
+    font-size: 14px;
+    line-height: 130px;
+    color: #8c8c8c;
+}
+
+.header-right a {
+    color: #f42424;
+}
+
+main {
+    background-image: url(../images/xqf-images/xqf-banner.jpg);
+    background-position: center;
+    height: 530px;
+}
+
+main .main-layout {
+    width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main .loginform {
+    float: right;
+    height: 419px;
+    width: 350px;
+    position: relative;
+    top: 50px;
+    background-color: #fff;
+    padding: 20px 40px 0;
+    box-sizing: border-box;
+}
+
+.loginform .login-title {
+    text-align: center;
+    color: #8c8c8c;
+}
+
+.loginform .qqicon {
+    width: 36px;
+    height: 36px;
+    margin: 15px auto;
+    background: url(../images/xqf-images/xqf-icon.png) no-repeat;
+}
+
+.loginform .qqicon:hover {
+    background-position: -39px 0;
+}
+
+.loginform .loginbox {
+    margin-top: 10px;
+}
+
+.loginform .text {
+    border: 1px solid #d2d2d2;
+    width: 223px;
+    height: 28px;
+    padding: 5px 10px 5px 35px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
+.loginform [type="button"] {
+    width: 270px;
+    height: 40px;
+    background-color: #f00;
+    color: #fff;
+    border: none;
+}
+
+.loginform [type="button"]:hover {
+    background-color: #ec5051;
+}
+
+.loginform .backpwd {
+    margin-top: 20px;
+    display: block;
+    font-size: 14px;
+}
+
+.footerlayout {
+    width: 1200px;
+    margin: 20px auto 0;
+    font-size: 12px;
+}
+
+.footerlayout p {
+    text-align: center;
+    line-height: 30PX;
+    color: rgba(85, 85, 85, .5);
+}
+
+.footerlayout p a {
+    text-align: center;
+    color: rgba(85, 85, 85, .5);
+}
+
+.footerlayout p a:hover {
+    color: #f42424;
+}

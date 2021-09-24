@@ -1,0 +1,234 @@
+/* 底部样式 */
+.footer {
+    background: #eee;
+    margin-top: 80px;
+    overflow: hidden;
+    /* margin: 80px auto; */
+}
+.footer .footer-top {
+    padding: 24px 0;
+    height: 30px;
+}
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .footer-top .service-list {
+    overflow: hidden;
+    float: left;
+}
+
+.footer .footer-top .service-list .service-item {
+    float: left;
+    width: 170px;
+    height: 32px;
+    line-height: 30px;
+    overflow: hidden;
+    padding-right: 10px;
+}
+
+.footer-top .service-list .service-item .f-icon {
+    width: 32px;
+    height: 32px;
+    float: left;
+    background: url(../images/fuzhuang/footer_new_icon.png) no-repeat;
+}
+
+.footer-top .service-list .service-item:nth-child(1) .f-icon {
+    background-position: 0px 0px;
+}
+
+.footer-top .service-list .service-item:nth-child(2) .f-icon {
+    background-position: -34px 0px;
+}
+
+.footer-top .service-list .service-item:nth-child(3) .f-icon {
+    background-position: -68px 0px;
+}
+
+.footer-top .service-list .service-item:nth-child(4) .f-icon {
+    background-position: -102px 0px;
+}
+
+.footer-top .service-list .service-item:nth-child(5) .f-icon {
+    background-position: -136 px 0px;
+}
+
+.footer-top .service-list .service-item span {
+    width: 125px;
+    height: 60px;
+    overflow: hidden;
+    float: left;
+    font-size: 18px;
+    color: #888;
+    margin-left: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.contact {
+    float: right;
+}
+
+.contact .contact-item {
+    float: left;
+    height: 32px;
+    line-height: 30px;
+}
+
+.contact .contact-item span {
+    width: 80px;
+    height: 30px;
+    float: left;
+    color: #262626;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 8px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.contact .contact-item-first span {
+    width: 140px;
+    margin-right: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.contact .contact-item .f-icon {
+    background: url(../images/fuzhuang/footer_new_icon.png) no-repeat;
+    display: inline-block;
+}
+
+.contact .contact-item .f-icon-tel {
+    width: 22px;
+    height: 24px;
+    float: left;
+    margin-top: 5px;
+    background-position: -3px -103px;
+}
+
+.contact .contact-item .f-icon-kefu {
+    width: 27px;
+    height: 24px;
+    float: left;
+    margin-top: 4px;
+    background-position: -3px -138px;
+}
+
+
+/*footer 中间部分*/
+
+.footer .footer-con {
+    background-color: #262626;
+}
+
+.footer-con .footer-con-wrap {
+    padding: 30px 0;
+    width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #464646;
+    overflow: hidden;
+}
+
+.footer-con .footer-con-wrap dl {
+    width: 170px;
+    float: left;
+    padding-right: 10px;
+}
+
+.footer-con .footer-con-wrap dl dt {
+    width: 170px;
+    height: 24px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-con .footer-con-wrap dl dd {
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.footer-con .footer-con-wrap dl dd a {
+    font-size: 14px;
+    color: #ccc;
+    width: 100%;
+}
+.footer-con .footer-con-wrap dl dd a:hover{
+    color: #f24;
+}
+.footer-code {
+    float: right;
+}
+
+.footer-code .code-item {
+    float: left;
+    width: 104px;
+    padding: 2px;
+    background: #fff;
+}
+
+.footer-code .first-code {
+    margin-right: 60px;
+}
+
+.footer-code .code-item .code-img {
+    width: 104px;
+    height: 104px;
+}
+
+.footer-code .code-item .code-img img {
+    width: 104px;
+    height: 104px;
+}
+
+.footer-code .code-item .code-text {
+    width: 100%;
+    height: 20px;
+    background: #121212;
+    text-align: center;
+    color: #fff;
+}
+
+.footer-bottom {
+    overflow: hidden;
+    padding: 30px 0 20px;
+    background: #262626;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #4c4c4c;
+}
+.footer-bottom p a{
+    color: #4c4c4c;
+}
+.footer-bottom p a:hover{
+    color: #f24;
+}
+.copyright_links a {
+    color: #888;
+    display: inline-block;
+}
+.copyright_links a:hover {
+    color: #f24;
+}
+
+.copyright_links .line {
+    overflow: hidden;
+    margin: 0 17px;
+    width: 1px;
+    height: 11px;
+    background: #444;
+    display: inline-block;
+}

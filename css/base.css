@@ -1,0 +1,147 @@
+/* 公共的样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body,
+html,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    outline: none;
+    border: none;
+    -webkit-font-smoothing: antialiased;
+    word-break: break-all;
+    color: #555;
+    /* 抗锯齿很好   */
+    /* color: #666; */
+}
+
+em,
+i,
+u {
+    font-style: normal;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f55;
+}
+
+img {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+fieldset,
+iframe,
+img {
+    border: 0;
+}
+
+
+/* 布局 */
+
+.w1902 {
+    max-width: 1920px;
+}
+
+.w1200 {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* 浮动 */
+
+.fl {
+    float: left !important;
+}
+
+.fr {
+    float: right !important;
+}
+
+.fn {
+    float: none !important;
+}
+
+
+/* 字体大小 */
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs16 {
+    font-size: 16px;
+}
+
+
+/* 显示隐藏 */
+
+.hide {
+    display: none !important;
+}
+
+.show {
+    display: block !important;
+}
+
+
+/* 清除浮动 */
+
+.clear,
+.clearfix {
+    clear: both;
+}
+
+
+/* 对齐方式 */
+
+.text-left {
+    text-align: left !important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+    /* 两端对齐 */
+}
